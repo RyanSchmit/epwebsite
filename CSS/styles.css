@@ -3,10 +3,23 @@
   padding: 0;
 }
 
+.Element-heading {
+  font-family: 'Courier New';
+  font-size: 55pt;
+}
+
+.landing {
+  text-align: center;
+  margin-top: 200px;
+  margin-bottom: 100px;
+  margin-right: 150px;
+  margin-left: 80px;
+}
 
 .learnmore {  
   cursor: pointer;
   text-decoration: none;
-  color: #000;
-  
+  color: rgb(110, 109, 109); 
+  font-size: 20pt;
 }
+
