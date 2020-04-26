@@ -1,11 +1,40 @@
-.Film {
-    text-align: center;
-    display: inline-block;
-    margin: 0% 45% 0%;
+body {
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-bottom: 50px;
+  padding-left: 20px;
+}
+
+div {
+  text-align: center;
+  margin-top: 10pt;
   }
   
+.Film {
+  display: inline;
+  font-size: 30pt;
+}
+
 .Periodic {
-    display: inline-block;
-    background-color: black;
-    color: white;
+  display: inline-block;
+  background-color: black;
+  height: 40px;
+  width: 80pt;
+  color: white;
+  float: right;
+  right: 250px;
+  top: 10px;
+  font-size: 15pt;
+  position: relative;
+}
+
+.Lorem {
+  margin: 50pt 200pt;
+  font-size: 20pt;
+  color: rgb(110, 109, 109);
+}
+
+.movies {
+  font-size: 20pt;
+  margin: 10pt 30pt;
 }
