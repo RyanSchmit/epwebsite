@@ -1,0 +1,11 @@
+.Film {
+    text-align: center;
+    display: inline-block;
+    margin: 0% 45% 0%;
+  }
+  
+.Periodic {
+    display: inline-block;
+    background-color: black;
+    color: white;
+}
