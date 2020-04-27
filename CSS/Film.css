@@ -1,40 +1,52 @@
 body {
-  padding-top: 20px;
-  padding-right: 20px;
-  padding-bottom: 50px;
-  padding-left: 20px;
+  padding-top: 10px;
+  padding-right: 200px;
+  padding-left: 200px;
 }
 
-div {
+.head {
   text-align: center;
-  margin-top: 10pt;
   }
   
 .Film {
   display: inline;
-  font-size: 30pt;
+  font-size: 25pt;
 }
 
-.Periodic {
+.PeriodicB {
   display: inline-block;
+  cursor: pointer;
   background-color: black;
-  height: 40px;
   width: 80pt;
   color: white;
   float: right;
-  right: 250px;
-  top: 10px;
   font-size: 15pt;
-  position: relative;
+  text-decoration: none;
 }
 
 .Lorem {
-  margin: 50pt 200pt;
   font-size: 20pt;
   color: rgb(110, 109, 109);
+  margin-top: 50pt;
 }
 
-.movies {
+.Fishing {
+  margin-right: 50pt;
+}
+
+.Forest {
+  margin-right: 50pt;
+}
+
+.movietxt {
   font-size: 20pt;
-  margin: 10pt 30pt;
+}
+
+.Fishingt {
+  margin-left: 50pt;
+  margin-right: 190pt;
+}
+
+.Forestt {
+  margin-right: 190pt;
 }
