@@ -1,7 +1,7 @@
 body {
     padding-top: 10px;
-    padding-right: 200px;
-    padding-left: 200px;
+    padding-right: 150px;
+    padding-left: 150px;
   }
   
   .head {
@@ -22,4 +22,41 @@ body {
     color: white;
     float: right;
     font-size: 15pt;
+  }
+
+  .Elements {
+    margin-top: 50pt;
+  }
+
+  .Elements2 {
+    margin-top: 25pt;
+  }
+
+  .Oxygen {
+    margin-right: 50pt;
+  }
+  
+  .Hydrogen {
+    margin-right: 50pt;
+  }
+
+  .Carbon {
+    margin-right: 50pt;
+  }
+
+  .Elementstxt {
+    font-size: 15pt;
+  }
+
+  .Oxygent {
+    margin-left: 50pt;
+    margin-right: 150pt;
+  }
+
+  .Hydrogent {
+    margin-right: 150pt;
+  }
+
+  .Carbont {
+    margin-right: 150pt;
   }
