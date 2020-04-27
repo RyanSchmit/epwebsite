@@ -1,0 +1,25 @@
+body {
+    padding-top: 10px;
+    padding-right: 200px;
+    padding-left: 200px;
+  }
+  
+  .head {
+    text-align: center;
+    }
+    
+  .Periodic {
+    display: inline;
+    font-size: 25pt;
+  }
+  
+  .FilmB {
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    background-color: black;
+    width: 80pt;
+    color: white;
+    float: right;
+    font-size: 15pt;
+  }
