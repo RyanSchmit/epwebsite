@@ -10,6 +10,7 @@
 
 .landing {
   text-align: center;
+  padding-bottom: 155pt;
   margin-top: 200px;
   margin-bottom: 100px;
   margin-right: 150px;
@@ -23,3 +24,58 @@
   font-size: 20pt;
 }
 
+.Mission {
+  background-color: rgb(187, 184, 184);
+  padding-bottom: 340pt;
+  padding-right: 200px;
+  padding-left: 200px;
+}
+
+.MissionH {
+  text-align: center;
+  padding-top: 50pt;
+}
+
+.MissionP {
+  margin-top: 50pt;
+  font-size: 20pt;
+}
+
+.quote {
+  padding-top: 200pt;
+  padding-bottom: 200pt;
+  padding-right: 200px;
+  padding-left: 200px;
+  font-size: 20pt;
+}
+
+.name {
+  margin-left: 50pt;
+}
+
+.links {
+  background-color: rgb(187, 184, 184);
+  padding-top: 20pt;
+  padding-bottom: 340pt;
+  padding-right: 200px;
+  padding-left: 200px;
+}
+
+.ElementP {
+  text-align: center;
+  font-size: 50pt;
+}
+  
+.film {
+  float: left;
+  font-size: 30pt;
+  text-decoration: blue;
+  margin: 20pt 20pt;
+}
+
+.periodic {
+  float: right;
+  font-size: 30pt;
+  text-decoration: blue;
+  margin: 20pt 20pt;
+}
