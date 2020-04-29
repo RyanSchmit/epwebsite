@@ -19,6 +19,8 @@
 
 .learnmore {  
   cursor: pointer;
+  border: 2px solid rgb(110, 109, 109);
+  border-radius: 8px;
   text-decoration: none;
   color: rgb(110, 109, 109); 
   font-size: 20pt;
@@ -46,11 +48,13 @@
   padding-bottom: 200pt;
   padding-right: 200px;
   padding-left: 200px;
-  font-size: 20pt;
+  font-size: 40pt;
 }
 
 .name {
-  margin-left: 50pt;
+  padding-left: 500pt;
+  padding-top: 30pt;
+  font-size: 25pt;
 }
 
 .links {
@@ -68,14 +72,14 @@
   
 .film {
   float: left;
-  font-size: 30pt;
+  font-size: 35pt;
   text-decoration: blue;
-  margin: 20pt 20pt;
+  margin: 50pt 20pt;
 }
 
 .periodic {
   float: right;
-  font-size: 30pt;
+  font-size: 35pt;
   text-decoration: blue;
-  margin: 20pt 20pt;
+  margin: 50pt 20pt;
 }
