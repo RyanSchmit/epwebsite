@@ -4,6 +4,22 @@ body {
   padding-left: 200px;
 }
 
+@media (max-width: 1330px) {
+  body {
+    padding-top: 20px;
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1000px) {
+  body {
+    padding-top: 20px;
+    padding-right: 100px;
+    padding-left: 100px;
+  }
+}
+
 .head {
   text-align: center;
   }
@@ -24,22 +40,71 @@ body {
   text-decoration: none;
 }
 
+
 .Lorem {
   font-size: 20pt;
   color: rgb(110, 109, 109);
   margin-top: 50pt;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+
 .Fishing {
-  margin-right: 50pt;
+  margin-right: 20pt;
 }
 
 .Forest {
-  margin-right: 50pt;
+  margin-right: 20pt;
 }
+
+@media (max-width: 1100px) {
+  .Forest {
+    margin-right: 10pt;
+  }
+
+  .Fishing {
+    margin-right: 10pt;
+  }
+} 
 
 .movietxt {
   font-size: 20pt;
+}
+
+@media (max-width: 1000px) {
+  img {
+    display: inline-block;
+  }
+
+  .movietxt {
+    display: none;
+  }
+} 
+
+.Iphonet {
+  visibility: hidden;
+}
+
+@media (max-width: 767px) {
+  .Iphonet {
+    visibility: visible;
+    display: block;
+    margin-left: 20%;
+    font-size: 120%;
+  }
+} 
+
+@media (min-width: 768px) and (max-width: 1000px) {
+  .Iphonet {
+    visibility: visible;
+    display: block;
+    font-size: 120%;
+    margin-left: 10%;
+  }
 }
 
 .Fishingt {

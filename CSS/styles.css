@@ -8,6 +8,13 @@
   font-size: 55pt;
 }
 
+@media (max-width: 500px) {
+  .Element-heading {
+    font-size: 30pt;
+    color: blue;
+  }
+} 
+
 .landing {
   text-align: center;
   padding-bottom: 155pt;
@@ -16,6 +23,18 @@
   margin-right: 150px;
   margin-left: 80px;
 }
+
+@media (max-width: 500px) {
+  .landing {
+    text-align: center;
+    padding-bottom: 155pt;
+    margin-top: 200px;
+    margin-bottom: 10px;
+    margin-right: 15px;
+    margin-left: 8px;
+  }
+} 
+
 
 .learnmore {  
   cursor: pointer;
@@ -32,6 +51,14 @@
   padding-right: 200px;
   padding-left: 200px;
 }
+
+@media (max-width: 500px) {
+  .Mission {
+    padding-bottom: 340pt;
+    padding-right: 100px;
+    padding-left: 100px;
+  }
+} 
 
 .MissionH {
   text-align: center;
@@ -60,7 +87,7 @@
 .links {
   background-color: rgb(187, 184, 184);
   padding-top: 20pt;
-  padding-bottom: 340pt;
+  padding-bottom: 350pt;
   padding-right: 200px;
   padding-left: 200px;
 }
@@ -75,6 +102,9 @@
   font-size: 35pt;
   text-decoration: blue;
   margin: 50pt 20pt;
+  cursor: pointer;
+  border: 2px solid rgb(110, 109, 109);
+  border-radius: 8px;
 }
 
 .periodic {
@@ -82,4 +112,10 @@
   font-size: 35pt;
   text-decoration: blue;
   margin: 50pt 20pt;
+  cursor: pointer;
+  border: 2px solid rgb(110, 109, 109);
+  border-radius: 8px;
 }
+
+
+

@@ -1,62 +1,100 @@
 body {
+  padding-top: 10px;
+  padding-right: 150px;
+  padding-left: 150px;
+}
+
+@media (max-width: 1330px) {
+  body {
     padding-top: 10px;
-    padding-right: 150px;
-    padding-left: 150px;
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+}
+
+.head {
+  text-align: center;
   }
   
-  .head {
-    text-align: center;
-    }
-    
-  .Periodic {
-    display: inline;
-    font-size: 25pt;
-  }
-  
-  .FilmB {
-    display: inline-block;
-    text-decoration: none;
-    cursor: pointer;
-    background-color: black;
-    width: 80pt;
-    color: white;
-    float: right;
-    font-size: 15pt;
-  }
+.Periodic {
+  display: inline;
+  font-size: 25pt;
+}
 
-  .Elements {
-    margin-top: 50pt;
-  }
+.FilmB {
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+  background-color: black;
+  width: 80pt;
+  color: white;
+  float: right;
+  font-size: 15pt;
+}
 
-  .Elements2 {
-    margin-top: 25pt;
-  }
+.Elements {
+  margin-top: 50pt;
+}
 
+.Elements2 {
+  margin-top: 25pt;
+}
+
+.Oxygen {
+  margin-right: 50pt;
+}
+
+.Hydrogen {
+  margin-right: 50pt;
+}
+
+.Carbon {
+  margin-right: 50pt;
+}
+
+@media (max-width: 1330px) {
   .Oxygen {
-    margin-right: 50pt;
+    margin-right: 20pt;
   }
   
   .Hydrogen {
-    margin-right: 50pt;
+    margin-right: 20pt;
   }
-
+  
   .Carbon {
-    margin-right: 50pt;
+    margin-right: 20pt;
   }
+}
 
-  .Elementstxt {
-    font-size: 15pt;
-  }
 
+.Elementstxt {
+  font-size: 15pt;
+}
+
+.Oxygent {
+  margin-left: 50pt;
+  margin-right: 150pt;
+}
+
+.Hydrogent {
+  margin-right: 150pt;
+}
+
+.Carbont {
+  margin-right: 150pt;
+}
+
+@media (max-width: 1330px) {
   .Oxygent {
     margin-left: 50pt;
-    margin-right: 150pt;
+    margin-right: 120pt;
   }
-
+  
   .Hydrogent {
-    margin-right: 150pt;
+    margin-right: 120pt;
   }
-
+  
   .Carbont {
-    margin-right: 150pt;
+    margin-right: 120pt;
   }
+}
