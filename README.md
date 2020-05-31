@@ -1,3 +1,7 @@
 # epwebsite
 Element Projects Website
-website: https://elementfilm.000webhostapp.com/
+
+Learned:
+html
+css
+responsive web development
