@@ -20,6 +20,12 @@ body {
   }
 }
 
+.homebtn {
+  width: 5%;
+  display: inline-block;
+  float: left;
+}
+
 .head {
   text-align: center;
   }

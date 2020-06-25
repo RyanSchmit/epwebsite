@@ -12,6 +12,13 @@ body {
   }
 }
 
+.homebtn {
+  width: 5%;
+  display: inline-block;
+  float: left;
+  margin-left: 15pt;
+}
+
 .head {
   text-align: center;
 }
